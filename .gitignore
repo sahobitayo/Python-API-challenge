@@ -1,7 +1,7 @@
 #API Key
 README.md
-VacationPy/*
-/WeatherPy/config.py*
+vacationpy/*
+/weatherpy/config.py*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
