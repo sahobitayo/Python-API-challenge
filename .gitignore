@@ -1,6 +1,9 @@
 #API Key
 */config.py
 config.py*
+
+WeatherPy/config1.py
+VacationPy/config1.py
 # test.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
