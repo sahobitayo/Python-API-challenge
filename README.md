@@ -43,4 +43,25 @@ I will narrow down the DataFrame to find my ideal weather condition. For example
 I will drop any rows that don't contain all three conditions. You want to be sure the weather is ideal. I will then use Google Places API to find the first hotel for each city located within 5000 meters of your coordinates. I will plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
 
 
+## Observations and Insights
+From part one (WeatherPy), here are some observations and insights that can be made from the data:
 
+- There is a strong, negative correlation between a city's latitude and maximum temperature in the northern hemisphere. That is, as you go farther away from the equator (latitude increases), a city's maximum temperature will generally be lower than cities closer to the equator in the northern hemisphere. This is what I expected to see - for example, it's a lot colder in Minnesota (farther north) than it is in Mexico.
+
+- There is a very weak, positive correlation between cloudiness and a city's latitude for both the northern and southern hemispheres. This is represented in the scatter plots in this notebook for those two factors as the data points being scattered across the graph. As a result, we can conclude that a city's latitude has little to no influence on how cloudy a city is.
+
+- There is a very weak, positive correlation for the northern hemisphere between a city's latitude and wind speed (mph), and there is a very weak, negative correlation for the southern hemisphere for those same two factors. I think the fact that the southern hemisphere has a negative correlation and the northern hemisphere has a positive correlation has to have something to do with the northern hemisphere and southern hemisphere being in opposite seasons from each other. Overall, for both hemispheres, latitude has a small influence on wind speed but not very much. However, it is important to note that the correlation between these two factors for the southern hemisphere is stronger than the correlation between these two factors for the northern hemisphere.
+
+## API Keys
+To run these jupyter notebooks locally, you will need to obtain API keys.
+
+For part one, you will need to obtain an API key for the OpenWeatherMap API.
+
+After you have the OpenWeatherMap API key, create a file called config.py in the WeatherPy folder and add the API key to that file:
+
+weather_api_key="API_KEY_HERE"
+For part two, you wll need to obtain a Google API key from the Google Cloud Platform at https://cloud.google.com and enable the Places API.
+
+After you have the Google API key, create a file called config.py in the VacationPy folder and add the API key to that file:
+
+g_key="API_KEY_HERE"
