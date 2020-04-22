@@ -58,8 +58,8 @@ To run these jupyter notebooks locally, you will need to obtain API keys.
 For part one, you will need to obtain an API key for the OpenWeatherMap API.
 
 After you have the OpenWeatherMap API key, create a file called config.py in the WeatherPy folder and add the API key to that file:
-
 weather_api_key="API_KEY_HERE"
+
 For part two, you wll need to obtain a Google API key from the Google Cloud Platform at https://cloud.google.com and enable the Places API.
 
 After you have the Google API key, create a file called config.py in the VacationPy folder and add the API key to that file:
