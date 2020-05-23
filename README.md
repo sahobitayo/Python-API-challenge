@@ -73,7 +73,7 @@ For this project, I used jupyter notebook to render and display the results of t
 - [WeatherPy](https://github.com/sahobitayo/Python-API-challenge/blob/master/WeatherPy/Weather.ipynb)
 - [VacationPy](https://github.com/sahobitayo/Python-API-challenge/blob/master/VacationPy/Vacation.ipynb)
 
-###Images
+### Images
 Static images of the different visualizations I created can be found [here](https://github.com/sahobitayo/Python-API-challenge/tree/master/Output).
 
 
