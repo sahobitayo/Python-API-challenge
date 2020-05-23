@@ -58,10 +58,29 @@ To run these jupyter notebooks locally, you will need to obtain API keys.
 For part one, you will need to obtain an API key for the OpenWeatherMap API.
 
 After you have the OpenWeatherMap API key, create a file called config.py in the WeatherPy folder and add the API key to that file:
-weather_api_key="API_KEY_HERE"
+`weather_api_key="API_KEY_HERE"`
 
 For part two, you wll need to obtain a Google API key from the Google Cloud Platform at https://cloud.google.com and enable the Places API.
 
 After you have the Google API key, create a file called config.py in the VacationPy folder and add the API key to that file:
 
-g_key="API_KEY_HERE"
+`g_key="API_KEY_HERE"`
+
+
+
+Jupyter Notebook
+For this project, I used jupyter notebook to render and display the results of this analysis. There are two notebook files. One for part one (WeatherPy) and another for part two (VacationPy) of this project.
+
+WeatherPy
+VacationPy
+Images
+Static images of the different visualizations I created can be found here.
+Technologies Used
+Python
+Pandas library
+Jupyter Notebook
+Matplotlib library
+Citipy (will need to be installed in your anaconda environment)
+OpenWeatherMap API
+Google Places API
+jupyter-gmaps
